@@ -1,5 +1,5 @@
 {% set name = "map-binning" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/map_binning-{{ version }}.tar.gz
-  sha256: 933760d9eb061176838b5ba41f4ffa95b6e41432569c4ceab3ab0c32381742d1
+  sha256: d416b9d4e876d129475a5f4c403655b7cdd000ff13e158f62dc032821c8efc9b
 
 build:
   noarch: python
